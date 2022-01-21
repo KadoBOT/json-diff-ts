@@ -36,9 +36,12 @@
     "url": "https://github.com/ltwlf/json-diff-ts/issues"
   },
   "homepage": "https://github.com/ltwlf/json-diff-ts#readme",
+  "dependencies": {
+    "lodash": "^4.17.21"
+  },
   "devDependencies": {
     "@types/jest": "^27.0.3",
-    "@types/lodash": "^4.14.149",
+    "@types/lodash": "^4.14.178",
     "jest": "^24.9.0",
     "prettier": "^2.5.1",
     "ts-jest": "^24.2.0",
@@ -46,7 +49,4 @@
     "tslint-config-prettier": "^1.18.0",
     "typescript": "^4.5.2"
   },
-  "peerDependencies": {
-    "lodash": "^4.x"
-  }
 }
